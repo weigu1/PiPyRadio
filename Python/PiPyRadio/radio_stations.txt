@@ -1,0 +1,32 @@
+RTL|http://sc-rtllive.newmedia.lu:80/
+Eldoradio|http://sc-eldolive.newmedia.lu
+100,7|http://100komma7.cast.addradio.de/100komma7/live/mp3/128/stream.mp3
+SWR3|https://liveradio.swr.de/sw282p3/swr3/play.mp3
+France Musique|http://direct.francemusique.fr/live/francemusique-midfi.mp3
+Latina|https://www.phonostar.de/radio/radiolatinaluxembourg
+RTBF Classic 21|http://radios.rtbf.be/classic21-128.mp3
+RTL Deutsch|https://streema.com/radios/RTL_Radio_4
+ARA|https://streema.com/radios/DNR
+France Inter|https://www.radiofrance.fr/franceinter/direct
+RTL Oldies|https://edge63.radio.hitradio-rtl.de/hrrtl-oldies/stream/aacp?aggregator=direktlink
+RTL Top 40|https://edge03.radio.hitradio-rtl.de/hrrtl-top40/stream/aacp?aggregator=direktlink
+Deutschl.-funk|https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3?aggregator=web
+BBC|http://stream.live.vc.bbcmedia.co.uk/bbc_radio_one
+RTL Today|https://live-edge.rtl.lu/radio/rtltodayradio/playlist.m3u8
+FG|http://radiofg.impek.com/fg
+FIP Raggae|http://direct.fipradio.fr/live/fip-webradio6.mp3
+RTL France|http://streaming.radio.rtl.fr/rtl-1-44-128.m3u
+France Culture|http://direct.franceculture.fr/live/franceculture-midfi.mp3
+RTL Dresden|https://edge14.radio.hitradio-rtl.de/hrrtl-dresden/stream/aacp
+RTL 90er|https://edge59.radio.hitradio-rtl.de/hrrtl-90er/stream/aacp
+RTL 80er|https://edge60.radio.hitradio-rtl.de/hrrtl-80er/stream/aacp
+BRF1|http://radios.rtbf.be/brf1-128.mp3
+BRF2|http://radios.rtbf.be/brf2-128.mp3
+RTBF Classic 21|http://radios.rtbf.be/classic21-128.mp3
+RTBF La Première|http://radios.rtbf.be/laprem1ere-128.mp3
+RTBF Musiq3|http://radios.rtbf.be/musiq3-128.mp3
+RTBF Jam|https://radios.rtbf.be/jam-128.mp3
+RTBF Tipik|http://radios.rtbf.be/pure-128.mp3
+RTBF Tarmac|https://radios.rtbf.be/tarmac-128.mp3
+RTBF Vivacité|http://radios.rtbf.be/vivabxl-128.mp3
+RTBF Viva+|https://radios.rtbf.be/vivaplus-128.mp3

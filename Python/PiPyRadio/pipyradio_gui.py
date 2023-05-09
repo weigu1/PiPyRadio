@@ -28,7 +28,7 @@ class GUI(threading.Thread):
         self.padx = 3
         self.pady = 3
         self.button_ipady_height = 15 # button height
-        self.button_height = 18
+        self.button_height = 16
         self.button_width = 14
         self.button_width_small = 12
         self.image = "pipyradio_488.png"
@@ -163,11 +163,11 @@ class GUI(threading.Thread):
         self.label_png = ttk.Label(self.frame_Header, text="",
                                    image=self.imageL1,                                   
                                    style="default.TLabel")
-        self.label_png.grid(ipady=3, column=0, row=1, columnspan=3, sticky="N")
+        self.label_png.grid(ipady=7, column=0, row=1, columnspan=3, sticky="N")
         self.label_time = ttk.Label(self.frame_Header, text="",
                                     justify='right',
                                     style="time.TLabel")
-        self.label_time.grid(ipady=7, column=2, row=0, sticky="NE")
+        self.label_time.grid(ipady=3, column=2, row=0, sticky="NE")
         # frame Info ++++++++++++++++++++++++++++++++++++++++++++++++++
         self.frame_Info = ttk.Frame(self.frame_Main,  borderwidth=3,
                                       padding="5 5 5 5", relief='groove',
@@ -180,7 +180,7 @@ class GUI(threading.Thread):
         self.label_song = ttk.Label(self.frame_Info, text="",
                                     justify='right',
                                     style="default.TLabel")
-        self.label_song.grid(ipady=5, column=0, row=0, sticky="W")
+        self.label_song.grid(ipady=10, column=0, row=0, sticky="W")
         
         # frame Buttons ++++++++++++++++++++++++++++++++++++++++++++
         self.frame_Buttons = ttk.Frame(self.frame_Main, style = "all.TFrame")
@@ -277,12 +277,12 @@ class GUI(threading.Thread):
                                     command = lambda: self.command("QUIT"),
                                     width = self.button_width,
                                     style="quit.TButton")
-        self.butt_quit.grid(ipady=6, column=0, row=0, sticky="W")
+        self.butt_quit.grid(ipady=10, column=0, row=0, sticky="W")
         self.butt_shutdown = ttk.Button(self.frame_Footer, text='Shutdown',
                                     command = lambda: self.command("SHUTDOWN"),
                                     width = self.button_width,
                                     style="quit.TButton")
-        self.butt_shutdown.grid(ipady=5, column=3, row=0, sticky="E")
+        self.butt_shutdown.grid(ipady=10, column=3, row=0, sticky="E")
         
         self.update_time()        
         # Padding
